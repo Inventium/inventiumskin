@@ -18,25 +18,25 @@ the terms_of_service.txt file included in this package.
 ------------------------------------------------------------------------------*/
 
 /*---:[ core layout elements ]:---*/
-#container { width: 96.7em; margin: 0 auto; }
-	#page { padding: 0em; }
+#container { width: 77.4em; margin: 0 auto; }
+	#page { padding: 2.2em; }
 		#header, #footer { padding-right: 1.1em; padding-left: 1.1em; }
-		#content_box { width: 100%; }
+		#content_box { width: 100%; background: url('../lib/images/dot-ddd.gif') 21.7em 0 repeat-y; }
 		.no_sidebars { background: none !important; }
 			
-			#content { width: 51.3em; float: left; }
+			#content { width: 51.2em; float: right; }
 			.no_sidebars #content { width: 100%; }
-				.post_box, .teasers_box, .full_width #content_box .page { margin: 0 2.2em 0 1.1em; }
+				.post_box, .teasers_box, .full_width #content_box .page { margin: 0 1em 0 2.2em; }
 					.full_width #content_box .page { width: auto; }
 				.no_sidebars .post_box { margin: 0 1.1em; }
 				.teasers_box { width: 48em; }
 					.teaser { width: 22.9em; }
-				#archive_intro, .prev_next { padding-right: 2.2em; padding-left: 1.1em; }
-			#sidebars { width: 45.4em; border: 0; float: right; }
-				#sidebar_1 { width: 17.2em; border-style: dotted; border-width: 0 0em 0 0; float: left; clear: left; }
-				#sidebar_2 { width: 28.1em; float: left; }
+				#archive_intro, .prev_next { padding-right: 1em; padding-left: 2.2em; }
+			#sidebars { width: 21.7em; border: 0; float: left; }
+				.sidebar { width: 100%; }
+				#sidebar_1 { border: 0; }
 					.sidebar ul.sidebar_list { padding-right: 1.1em; padding-left: 1.1em; }
-					#sidebar_2 ul.sidebar_list { padding-right: 1em; }
+				
 		
 /*---:[ nav styles ]:---*/
 .menu ul, .menu ul li { width: 15em; }
@@ -48,20 +48,20 @@ the terms_of_service.txt file included in this package.
 /*---:[ multimedia box elements ]:---*/
 #multimedia_box { padding: 1.1em; }
 	#image_box img { display: block; padding: 0.1em; border-width: 0.1em; }
-	#image_box img.square { width: 42.8em; height: 42.8em; }
-	#image_box img.four_by_three { width: 42.8em; height: 32.1em; }
-	#image_box img.three_by_four { width: 42.8em; height: 57.1em; }
-	#image_box img.three_by_two { width: 42.8em; height: 28.5em; }
-	#image_box img.two_by_three { width: 42.8em; height: 64.2em; }
-	#image_box img.five_by_four { width: 42.8em; height: 34.2em; }
-	#image_box img.four_by_five { width: 42.8em; height: 53.5em; }
-	#image_box img.sixteen_by_nine { width: 42.8em; height: 24.1em; margin: 0 auto; }
-	#image_box img.nine_by_sixteen { width: 42.8em; height: 76.1em; margin: 0 auto; }
-	#image_box img.two_by_one { width: 42.8em; height: 21.4em; }
-	#image_box img.one_by_two { width: 42.8em; height: 85.6em; }
+	#image_box img.square { width: 19.1em; height: 19.1em; }
+	#image_box img.four_by_three { width: 19.1em; height: 14.3em; }
+	#image_box img.three_by_four { width: 19.1em; height: 25.5em; }
+	#image_box img.three_by_two { width: 19.1em; height: 12.7em; }
+	#image_box img.two_by_three { width: 19.1em; height: 28.7em; }
+	#image_box img.five_by_four { width: 19.1em; height: 15.3em; }
+	#image_box img.four_by_five { width: 19.1em; height: 23.9em; }
+	#image_box img.sixteen_by_nine { width: 19.1em; height: 10.7em; margin: 0 auto; }
+	#image_box img.nine_by_sixteen { width: 19.1em; height: 34em; margin: 0 auto; }
+	#image_box img.two_by_one { width: 19.1em; height: 9.6em; }
+	#image_box img.one_by_two { width: 19.1em; height: 38.2em; }
 
 /*---:[ comments area ]:---*/
-#comments { margin-right: 2.2em; margin-left: 0em; }
+#comments { margin-right: 1.1em; margin-left: 1.1em; }
 	.comments_intro, #respond_intro { margin-left: 1.1em; }
 		dl#comment_list dt, #trackback_list { padding-right: 1.1em; padding-left: 1.1em; }
 		dl#comment_list dd { padding-left: 1.1em; }
@@ -72,7 +72,7 @@ the terms_of_service.txt file included in this package.
 		dl#comment_list dl dd .format_text { padding-left: 1.6em; border-width: 0 0 0 0.071em; }
 		dl#comment_list dl dd.bypostauthor > .format_text { padding-left: 1.5em; border-width: 0 0 0 0.143em; }
 		dl#comment_list dl dd dl { padding-left: 2.2em; }
-#commentform { padding-right: 2.2em; padding-left: 1.1em; }
+#commentform { padding-right: 1em; padding-left: 1.1em; }
 .comments_closed, .login_alert { margin-left: 1.1em; }
 
 /*---:[ content elements ]:---*/
@@ -248,7 +248,6 @@ input, textarea { font-family: Georgia, "Times New Roman", Times, serif; }
 
 /*---:[ footer styles ]:---*/
 #footer p { font-size: 1.2em; line-height: 1.667em; }
-ul.sidebar_list { padding-top: 2.2em; }
 
 /*---:[ teaser styles ]:---*/
 .teaser h2 { font-size: 1.6em; line-height: 1.375em; }
@@ -298,6 +297,10 @@ h1, h2, h2 a { color: #111111; }
 .menu .current a, .menu .current a:hover, .menu .current-cat a, .menu .current-cat a:hover, .menu .current-menu-item a, .menu .current-menu-item a:hover { color: #111111; background: #FFFFFF; }
 .menu .current-parent > a, .menu .current-cat-parent > a, .menu .current-menu-ancestor > a { color: #111111; background: #F0EEC2; }
 
-
 /*---:[ border package ]:---*/
-#header, .post_box, .teasers_box, #footer, .image_box, .custom_box, #feature_box, #archive_intro, .prev_next, #comment_nav_2 { border-width: 0; }
+#header { border-width: 0 0 0.3em 0; }
+.post_box, .teasers_box { border-width: 0.1em 0 0 0; }
+#footer { border-width: 0.3em 0 0 0; }
+#feature_box, #archive_intro, #comment_nav_2 { border-width: 0 0 0.2em 0; }
+.prev_next { border-width: 0.2em 0 0 0; }
+.image_box, .custom_box { border-width: 0 0 0.1em 0; }
