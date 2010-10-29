@@ -124,11 +124,12 @@ function page_header_footer_nosidebar_18() {
 	thesis_hook_content_box_bottom(); #hook
 	echo "\t</div>\n";
 	thesis_hook_after_content_box(); #hook
+
+	thesis_wrap_footer();
 	
 	echo "</div>\n";
 	echo "</div>\n";
 
-	thesis_wrap_footer();
 		
 	thesis_ie_clear();
 	thesis_javascript::output_scripts();
