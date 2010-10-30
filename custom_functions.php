@@ -1,15 +1,32 @@
 <?php
 
 // move nav bar below header
-remove_action('thesis_hook_before_header', 'thesis_nav_menu');
-add_action('thesis_hook_after_header','thesis_nav_menu');
+//remove_action('thesis_hook_before_header', 'thesis_nav_menu');
+//add_action('thesis_hook_after_header','thesis_nav_menu');
+
+
+
+// This needs to have some performance evaluation.
+// Seems like I would want a flag or singleton here
+// to control this between invocations.
+function remove_multimedia_box() {
+   $design_options = new thesis_design_options;
+   $design_options->get_options();
+   $design_options->multimedia_box['status'] = 0;         
+   update_option('thesis_design_options', $design_options);         
+}         
+remove_multimedia_box();
+
+
+//add_action('thesis_hook_feature_box', 'featurecontent');
+//remove_action('thesis_hook_feature_box');
+
 
 // Emergency use only, when an upgrade fails.
 //delete_option('thesis_design_options');
 //delete_option('thesis_options');
 
 
-/// Cool stuff!
 if (file_exists(THESIS_CUSTOM . '/wiaw_fat_footer.php')){
 	include(THESIS_CUSTOM . '/wiaw_fat_footer.php');
 }
@@ -26,7 +43,15 @@ if (file_exists(THESIS_CUSTOM . '/wiaw_custom_404.php')){
 	include(THESIS_CUSTOM . '/wiaw_custom_404.php');
 }
 
-
+//Load custom style sheets
+function custom_stylesheets() {
+    
+    if (file_exists(THESIS_CUSTOM . '/inventium_front.css')) {
+	   wp_register_style('inventium_front','/wp-content/themes/thesis_18/custom/inventium_front.css');
+	   wp_enqueue_style('inventium_front');
+    }
+}
+add_action('wp_print_styles', 'custom_stylesheets');
 
 
 

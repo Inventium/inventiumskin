@@ -27,55 +27,101 @@ in the User's Guide:
 
 /* @font-face{ font-family: "Museo"; src: url(http://www.violetminded.com/fonts/Museo500.otf) format("opentype"); }*/
 
-body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif; }
+body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", 
+ "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif; 
+}
 
 .custom .entry-title, h1, h2, h3, h4, h5, h6 { 
-    font-family: "Museo", "Hoefler Text", Palatino, "Palatino Linotype", serif; 
+   font-family: Palatino, "Palatino Linotype", serif; 
 }
 
 .custom .entry-title a { color:#4f0074; }
 .custom .entry-title a:hover { color:#ff9600; }
 
-.custom h1, h2 {font-family: "Museo", "Hoefler Text", Palatino, "Palatino Linotype", serif; color:#4f0074;}
-
-.custom h3 { font-family: "Museo", "Hoefler Text", Palatino, "Palatino Linotype", serif; color:#ff9600;}
-
-.custom a:link{
-	color:#4f0074;
+.custom h1, h2 {
+   font-family: Palatino, "Palatino Linotype", serif; 
+   color:#4f0074;
 }
 
-.custom a:visited{
-	color:#4f0074;
+.custom h3 { 
+   font-family: Palatino, "Palatino Linotype", serif; 
+   color:#ff9600;
 }
 
-.custom a:hover{
-	color:#ff9600;
+.custom a:link {
+   color:#4f0074;
 }
 
-.custom #sidebars #sidebar_1 h3 { display:block; background:#ff9600; color:#ffffff; font-size:14px; text-transform:none; font-variant:normal; padding:5px; }
-.custom #sidebars #sidebar_2 h3 { display:block; background:#ff9600; color:#ffffff; font-size:14px; text-transform:none; font-variant:normal; padding:5px; }
+.custom a:visited {
+   color:#4f0074;
+}
+
+.custom a:hover {
+   color:#ff9600;
+}
+
+.custom #sidebars #sidebar_1 h3 { 
+   display:block; 
+   background:#ff9600; 
+   color:#ffffff; font-size:14px; 
+   text-transform:none; 
+   font-variant:normal; 
+   padding:5px; 
+}
+
+.custom #sidebars #sidebar_2 h3 { 
+   display:block; 
+   background:#ff9600; 
+   color:#ffffff; 
+   font-size:14px; 
+   text-transform:none; 
+   font-variant:normal; 
+   padding:5px; 
+}
 
 
 /* Bitchin' banner */
-.custom #header #logo a { display: block; background: url('images/banner.jpg') no-repeat; outline: none; border: none; width:971px; height:208px; }
+.custom #header #logo a {
+   display: block; 
+   background: url('images/banner.png') no-repeat; 
+   outline: none; 
+   border: none; 
+   width:860px;
+   height:150px;
+}
 
 /* Solving the problem of the background within the header */
 
-.custom #header { padding: 0; }
+.custom #header { 
+   padding: 0; 
+}
 
 /* This line gets rid of the site title & tagline by casting them out to far left field */
-.custom #header #logo, .custom #header #tagline { text-indent: -9999px; }
+.custom #header #logo, .custom #header #tagline {
+   text-indent: -9999px; 
+}
 
 /* This line collapses the vertical space of the tagline so that there isn't unnecessary white space after the header image */
 
 /* This is a bit of a kludge, but it seems to work. */
-.custom #header #tagline { height: 0; }
+.custom #tagline { 
+   height: 0px;
+	margin: 0px 
+}
 
-.custom b, strong {font-weight:bolder; color:#356101;}
+.custom #header p#logo {
+	margin: 0px;
+}
+
+
+.custom b, strong {
+   font-weight:bolder; 
+   color:#356101;
+}
 
 .custom #page { 
-    width:971px;
-	margin: 0px; 
+/*    width:971px;
+	margin: 0px; */
 }
 
 .custom #content .post {
@@ -92,27 +138,55 @@ body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "B
 
 /* Custom Nav */
 
-.custom .menu { background:#909090; font-family: "Museo", "Hoefler Text", Palatino, "Palatino Linotype", serif; font-size:18px; border-style:none; border-bottom:none; padding-bottom:1px; }
+.custom .menu { 
+   float: right;
+   background:#fff; 
+   font-family: sans-serif; 
+   font-size:14px; 
+   border-style:none; 
+   border-bottom:none; 
+   padding-bottom:2px; 
+}
 
-.custom .menu .tab-1 a { background:#909090; color:#ffffff; text-transform:lowercase; border:none; letter-spacing:-0.02em; }
-.custom .menu .tab-1 a:hover { background:#v; color:#ffffff; text-transform:lowercase; border:none; letter-spacing:-0.02em; }
+.custom .menu .tab a { 
+   background:#fff; 
+   color:#00f; 
+   text-transform:lowercase; 
+   border:none; 
+   letter-spacing:-0.02em; 
+	padding: 0px 0px 0px 16px;
+}
 
-.custom .menu .tab-2 a { background:#909090; color:#ffffff; text-transform:lowercase; border:none; letter-spacing:-0.02em; }
-.custom .menu .tab-2 a:hover { background:#ff9600; color:#ffffff; text-transform:lowercase; border:none; letter-spacing:-0.02em; }
+.custom .menu .tab a:hover { 
+   background:#fff; 
+   color:#f00; 
+   text-transform:lowercase; 
+   border:none; 
+   letter-spacing:-0.02em; 
+}
 
-.custom .menu .tab-3 a { background:#909090; color:#ffffff; text-transform:lowercase; border:none; letter-spacing:-0.02em; }
-.custom .menu .tab-3 a:hover { background:#ff9600; color:#ffffff; text-transform:lowercase; border:none; letter-spacing:-0.02em; }
 
-.custom .menu .tab-4 a { background:#909090; color:#ffffff; text-transform:lowercase; border:none; letter-spacing:-0.02em; }
-.custom .menu .tab-4 a:hover { background:#ff9600; color:#ffffff; text-transform:lowercase; border:none; letter-spacing:-0.02em; }
+.custom .menu li a { 
+   background:#fff; 
+   color:#000000; 
+   text-transform:lowercase; 
+   border:none; 
+   letter-spacing:-0.02em; 
+}
 
-.custom .menu .tab-5 a { background:#909090; color:#ffffff; text-transform:lowercase; border:none; letter-spacing:-0.02em; }
-.custom .menu .tab-5 a:hover { background:#ff9600; color:#ffffff; text-transform:lowercase; border:none; letter-spacing:-0.02em; }
+.custom .menu li a:hover { 
+   background:#ff9600; 
+   color:#000000; 
+   text-transform:lowercase; 
+   border:none; 
+   letter-spacing:-0.02em; 
+   text-decoration:none;
+}
 
-.custom .menu li a { background:#909090; color:#ffffff; text-transform:lowercase; border:none; letter-spacing:-0.02em; }
-.custom .menu li a:hover { background:#ff9600; color:#ffffff; text-transform:lowercase; border:none; letter-spacing:-0.02em; text-decoration:none; }
+.custom .menu li.rss {
+   display: none;
+}
 
-/* Custom Content, Baby */
 
 .custom #content_box { background:#ffffff; }
 
@@ -124,7 +198,6 @@ body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "B
     padding-right: 0px;
 }
 
-/* This footer is a floozy-bot */
 
 .custom #footer { 
     background:#356101; 

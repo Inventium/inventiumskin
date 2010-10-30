@@ -20,6 +20,18 @@ if (function_exists('register_sidebar')) {
 	}
 }
 
+
+function footer_bottom_bar() {    
+?>
+<p class="legal">
+   Copyright &copy; 2009-2010 All Rights Reserved Inventium Systems | 
+   <a href ="http://website-in-a-weekend.net/disclaimer">Disclaimer</a> | 
+   <a href ="http://website-in-a-weekend.net/privacy-policy">Privacy Policy</a> | 
+   <a href ="http://website-in-a-weekend.net/terms-and-conditions">Terms & Conditions</a>.
+</p>
+<?php
+}
+
 /*-----------------------*/
 /* set up footer widgets */
 function widgetized_footer() {
@@ -47,17 +59,10 @@ function widgetized_footer() {
 		</div>
 		
 	</div>
-
-<p class="legal">
-	Copyright &copy; 2009-2010 All Rights Reserved | 
-	<a href="http://inventiumsystems.com/">Inventium Systems</a>  | 
-	<a href ="http://website-in-a-weekend.net/disclaimer">Disclaimer</a> | 
-	<a href ="http://website-in-a-weekend.net/privacy-policy">Privacy Policy</a> | 
-	<a href ="http://website-in-a-weekend.net/terms-and-conditions">Terms & Conditions</a> | 
-Design by <a href="http://violetminded.com" title="Visit violetminded, Queen of GPO">violetminded</a>.
-</p>
 <?php
+   footer_bottom_bar(); 
 }
 add_action('thesis_hook_footer','widgetized_footer');
 
+remove_action('thesis_hook_footer', 'thesis_attribution');
 ?>

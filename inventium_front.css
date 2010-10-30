@@ -1,0 +1,27 @@
+
+
+.front {
+   color:red;
+}
+
+
+.front div.portfolio {
+	text-align: center;
+	background-color: #eee;
+}
+
+.front table.portfolio {
+	background-color: #ee9;
+	color:#ff0000;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 20px;
+}
+
+.front table.portfolio td {
+	width: 100px;
+	padding: 10px 20px;
+	margin: 5px;
+}
+
+
