@@ -43,15 +43,15 @@ if (file_exists(THESIS_CUSTOM . '/wiaw_custom_404.php')){
 	include(THESIS_CUSTOM . '/wiaw_custom_404.php');
 }
 
-//Load custom style sheets
-function custom_stylesheets() {
+
+function is_load_custom_stylesheets() {
     
     if (file_exists(THESIS_CUSTOM . '/inventium_front.css')) {
 	   wp_register_style('inventium_front','/wp-content/themes/thesis_18/custom/inventium_front.css');
 	   wp_enqueue_style('inventium_front');
     }
 }
-add_action('wp_print_styles', 'custom_stylesheets');
+add_action('wp_print_styles', 'is_load_custom_stylesheets');
 
 
 

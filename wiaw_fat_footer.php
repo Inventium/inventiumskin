@@ -4,6 +4,21 @@
 /* Mike Nichols - October 17, 2009 */
 /*---------------------------------*/
 
+
+
+function is_load_fat_footer_stylesheet() {
+    
+    if (file_exists(THESIS_CUSTOM . '/wiaw_fat_footer.css')) {
+      wp_register_style('wiaw_fat_footer','/wp-content/themes/thesis_18/custom/wiaw_fat_footer.css');
+      wp_enqueue_style('wiaw_fat_footer');
+    }
+}
+add_action('wp_print_styles', 'is_load_fat_footer_stylesheet');
+
+
+
+
+
 /*-----------------------------------------*/
 /* register sidebars for widgetized footer */
 if (function_exists('register_sidebar')) {
@@ -63,6 +78,7 @@ function widgetized_footer() {
    footer_bottom_bar(); 
 }
 add_action('thesis_hook_footer','widgetized_footer');
+//add_action('thesis_hook_footer','footer_bottom_bar');
 
 remove_action('thesis_hook_footer', 'thesis_attribution');
 ?>

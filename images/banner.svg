@@ -43,8 +43,8 @@
      showgrid="false"
      inkscape:window-width="1230"
      inkscape:window-height="828"
-     inkscape:window-x="120"
-     inkscape:window-y="33"
+     inkscape:window-x="104"
+     inkscape:window-y="174"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -72,15 +72,15 @@
        y="283.45868" />
     <text
        xml:space="preserve"
-       style="font-size:36.00000033px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo;-inkscape-font-specification:Museo"
+       style="font-size:36.00000033px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
        x="417.30963"
        y="311.11368"
        id="text2813"
-       sodipodi:linespacing="125%"
+       sodipodi:linespacing="100%"
        transform="scale(0.83466844,1.1980805)"><tspan
          sodipodi:role="line"
          id="tspan2815"
-         x="417.30963"
-         y="311.11368">inventium systems</tspan></text>
+         x="422.16119"
+         y="311.11368">inventium systems </tspan></text>
   </g>
 </svg>

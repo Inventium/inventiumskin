@@ -24,4 +24,12 @@
 	margin: 5px;
 }
 
+.front div.comments_closed {
+	display:none;
+}
+
+.front div.headline_area {
+	display:none;
+}
+
 
