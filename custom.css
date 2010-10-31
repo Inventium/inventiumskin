@@ -94,12 +94,16 @@ body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans",
 
 .custom #header { 
    padding: 0; 
+	border: none;
+	margin-bottom: 10px;
 }
 
 /* This line gets rid of the site title & tagline by casting them out to far left field */
+
 .custom #header #logo, .custom #header #tagline {
    text-indent: -9999px; 
 }
+
 
 /* This line collapses the vertical space of the tagline so that there isn't unnecessary white space after the header image */
 
@@ -145,7 +149,8 @@ body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans",
    font-size:14px; 
    border-style:none; 
    border-bottom:none; 
-   padding-bottom:2px; 
+   padding-bottom:4px; 
+	padding-right: 50px;
 }
 
 .custom .menu .tab a { 
@@ -198,9 +203,9 @@ body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans",
     padding-right: 0px;
 }
 
-
+/* Overridden in footer css */
 .custom #footer { 
-    background:#356101; 
+   background:#356101; 
 	color:#ffffff; 
 	text-align:center; 
 }
@@ -375,75 +380,6 @@ width:auto;
 
 .notweetmeme #page div.tweetmeme_button {
 	display: none;
-}
-
-
-/*---------------------------------*/
-/* WIDGETIZED FOOTER               */
-/* Mike Nichols - October 17, 2009 */
-/*---------------------------------*/
-/* More info here: */
-/* http://thesisthemetools.com/tutorial-widgetized-fat-footer/ */
-/* footer widget area setup */
-#footer_setup {
-	/* widgetized footer background (not footer background) */
-	background: #eeeeee;
-	/* widget padding */
-	padding: 16px 16px 16px 16px;
-	/* margin at bottom of widgets */
-	margin-bottom: 10px;
-	/* do not change this! */
-	overflow: hidden;
-}
-
-/* widget item setup */
-#footer_setup .footer_items {
-	/* contents alignment */
-	text-align: left;
-	/* widget width */
-	width: 210px;
-	/* space between widgets */
-	padding-right: 10px;
-	/* text color */
-	color: #007; /*#2361A1;*/
-	/* do not change these! */
-	display: inline-block;
-	float: left;
-	height: 100%;
-}
-
-/* widget item headers*/
-#footer_setup .footer_items h3 {
-	/* font size */
-	font-size: 1em;
-	/* bold or not */
-	font-weight: bold;
-	/* uppercase or not */
-	text-transform: uppercase;
-	/* space out the letters*/
-	letter-spacing: 0px;
-	/* font color*/
-	color: #000000;
-	/* padding under header text */
-	padding-bottom: 3px;
-	/* border under header text */
-	border-bottom: 3px solid #ffdf00;
-	/* distance between border and widget text */
-	margin-bottom: 5px;
-}
-
-/* do not change these! */
-#footer_setup .footer_items ul li { list-style: none; }
-#footer_setup .footer_items ul { margin: 0px; padding: 0px; }
-
-.custom p.legal {
-	background: #356101;	
-	color:#ff9600;
-}
-
-.custom p.violetminded {
-	background: #356101;	
-	color:#ff9600;
 }
 
 
