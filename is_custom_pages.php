@@ -104,7 +104,8 @@ function page_header_footer_nosidebar_18() {
 	echo "<div id=\"container\">\n";
 	echo "<div id=\"page\">\n";
 
-	thesis_wrap_header();
+	//thesis_wrap_header();
+	thesis_header_area();
 	
 	thesis_hook_before_content_box(); #hook
 	echo "\t<div id=\"content_box\" class=\"no_sidebars\">\n";
@@ -112,12 +113,14 @@ function page_header_footer_nosidebar_18() {
 
 	#thesis_18/lib/html/frameworks.php Line 56
 	thesis_hook_before_content_area(); #hook
-	echo "<div id=\"content_area\" class=\"full_width\">\n";
-	echo "<div class=\"page\">\n";
+	
+	//echo "<div id=\"content_area\" class=\"full_width\">\n";
+	//echo "<div class=\"page\">\n";
 	#thesis_18/lib/html/content_box.php Line 57
 	thesis_content_column();
-	echo "</div>\n";
-	echo "</div>\n";
+	//echo "</div>\n";
+	//echo "</div>\n";
+	
 	#thesis_18/lib/html/frameworks.php Line 66
 	thesis_hook_after_content_area(); #hook
 	
@@ -125,9 +128,11 @@ function page_header_footer_nosidebar_18() {
 	echo "\t</div>\n";
 	thesis_hook_after_content_box(); #hook
 
-	thesis_wrap_footer();
+	//thesis_wrap_footer(); // for fill_width_framework
+	thesis_footer_area();
 	
 	echo "</div>\n";
+	is_hook_after_page();
 	echo "</div>\n";
 
 		
@@ -203,5 +208,8 @@ function page_hrecipe_18() {
     get_footer(apply_filters('thesis_get_footer', $name));
 }
 
+function is_hook_after_page() {
+   do_action('is_hook_after_page');
+}
 
 ?>

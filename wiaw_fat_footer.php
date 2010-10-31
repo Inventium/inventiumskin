@@ -78,7 +78,9 @@ function widgetized_footer() {
    footer_bottom_bar(); 
 }
 //add_action('thesis_hook_footer','widgetized_footer');
-add_action('thesis_hook_footer','footer_bottom_bar');
+//add_action('thesis_hook_after_footer','footer_bottom_bar');
+add_action('is_hook_after_page','footer_bottom_bar');
+
 
 remove_action('thesis_hook_footer', 'thesis_attribution');
 ?>

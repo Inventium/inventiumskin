@@ -18,10 +18,8 @@ the terms_of_service.txt file included in this package.
 ------------------------------------------------------------------------------*/
 
 /*---:[ core layout elements ]:---*/
-.full_width { width: 100%; clear: both; }
-	.full_width .page { width: 86em; margin: 0 auto; padding-right: 2.2em; padding-left: 2.2em; }
-	#header_area .page { padding-top: 2.2em; }
-	#footer_area .page { padding-bottom: 2.2em; }
+#container { width: 90.4em; margin: 0 auto; }
+	#page { padding: 2.2em; }
 		#header, #footer { padding-right: 1.1em; padding-left: 1.1em; }
 		#content_box { width: 100%; background: url('../lib/images/dot-ddd.gif') 21.7em 0 repeat-y; }
 		.no_sidebars { background: none !important; }
@@ -276,7 +274,7 @@ input, textarea { font-family: Georgia, "Times New Roman", Times, serif; }
 
 /*---:[ layout colors ]:---*/
 body { color: #111111; background: #FFFFFF; }
-.full_width > .page { background: #FFFFFF; }
+#page { background: #FFFFFF; }
 a, h2 a:hover, #logo a:hover { color: #2361A1; }
 #logo, #logo a { color: #111111; }
 #tagline { color: #888888 }

@@ -27,8 +27,28 @@ in the User's Guide:
 
 /* @font-face{ font-family: "Museo"; src: url(http://www.violetminded.com/fonts/Museo500.otf) format("opentype"); }*/
 
-body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", 
- "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif; 
+body{ 
+   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif; 
+}
+
+body {
+   background: #F0F0F0 url(http://pivotallabs.com/images/bg-dot.png) 50% 0%;
+   background-image: url(http://pivotallabs.com/images/bg-dot.png);
+   background-repeat-x: initial;
+   background-repeat-y: initial;
+   background-attachment: initial;
+   background-position-x: 50%;
+   background-position-y: 0%;
+   background-origin: initial;
+   background-clip: initial;
+   background-color: #F0F0F0;
+}
+
+.custom #page {
+	margin-top: 15px;
+	border-width: 1px;
+	border-color: #ccc;
+	border-style: solid;
 }
 
 .custom .entry-title, h1, h2, h3, h4, h5, h6 { 
@@ -48,6 +68,7 @@ body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans",
    color:#ff9600;
 }
 
+/*
 .custom a:link {
    color:#4f0074;
 }
@@ -59,6 +80,8 @@ body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans",
 .custom a:hover {
    color:#ff9600;
 }
+*/
+
 
 .custom #sidebars #sidebar_1 h3 { 
    display:block; 
@@ -152,11 +175,15 @@ body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans",
    padding-bottom:4px; 
 	padding-right: 50px;
 }
+.custom a:link .internal{ 
+   color:#dd0000;
+}
 
 .custom .menu .tab a { 
    background:#fff; 
-   color:#00f; 
-   text-transform:lowercase; 
+   color:#777;
+   text-transform:lowercase;
+   text-decoration: underline;	 
    border:none; 
    letter-spacing:-0.02em; 
 	padding: 0px 0px 0px 16px;
@@ -164,7 +191,7 @@ body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans",
 
 .custom .menu .tab a:hover { 
    background:#fff; 
-   color:#f00; 
+   /* color:#f00; */ 
    text-transform:lowercase; 
    border:none; 
    letter-spacing:-0.02em; 
@@ -358,9 +385,6 @@ p.ltb { text-indent: 0; margin-top: 3.08em; }
 
 
 
-.custom a:link .internal{ 
-   color:#dd0000;
-}
 
 
 .custom .format_text input, 

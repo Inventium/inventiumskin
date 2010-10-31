@@ -5,7 +5,7 @@
 
 
 .custom #footer { 
-   background:#fff; 
+   background:#fff;
    color:#000;
 	border-width: 0px; 
    text-align:center; 
@@ -67,8 +67,9 @@
 #footer_setup .footer_items ul { margin: 0px; padding: 0px; }
 
 .custom p.legal {
-   background: #fff; 
+   /* background: #fff; */
    color:#000;
+	text-align: center;
 }
 
 .custom p.violetminded {
