@@ -1,29 +1,5 @@
 
 
-.front {
-   color:red;
-}
-
-
-.front div.portfolio {
-	text-align: center;
-	background-color: #eee;
-}
-
-.front table.portfolio {
-	background-color: #ee9;
-	color:#ff0000;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px 20px;
-}
-
-.front table.portfolio td {
-	width: 100px;
-	padding: 10px 20px;
-	margin: 5px;
-}
-
 .front div.comments_closed {
 	display:none;
 }
@@ -32,4 +8,62 @@
 	display:none;
 }
 
+.front div.post_box.top {
+	padding-top: 10px;
+}
 
+.front div.portfolio {
+   text-align: center;
+   background-color: #eee;
+}
+
+.front div#comments {
+	display: none;
+}
+
+.front table.portfolio {
+   background-color: #fff;
+   color:#ff0000;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0px 0px;
+}
+
+.front table.portfolio td.left {
+   width: 33%;
+   padding: 10px 50px 0px 10px;
+   margin: 5px;
+}
+
+.front table.portfolio td.center {
+   width: 33%;
+   padding: 10px 25px 0px 25px;
+   margin: 5px;
+}
+
+.front table.portfolio td.right {
+   width: 33%;
+   padding: 10px 10px 0px 50px;
+   margin: 5px;
+}
+
+.front div.main_text {
+	padding: 10px 20px;
+}
+
+.front a#tobylane {
+   display: block;
+   width: 200px;
+   height: 165px;
+   background: url("/inventium/wp-content/uploads/2010/10/tobylane_200x165_rollover.png") no-repeat 0 0;
+  background-position: 0 -165px;
+}
+
+.front a#tobylane:hover { 
+  background-position: 0 0px;
+}
+
+/* This is for text in the link */
+.front a#tobylane span {
+   display: none;
+}

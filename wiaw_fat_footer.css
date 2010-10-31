@@ -2,6 +2,16 @@
 /* WIDGETIZED FOOTER               */
 /* Mike Nichols - October 17, 2009 */
 /*---------------------------------*/
+
+
+.custom #footer { 
+   background:#fff; 
+   color:#000;
+	border-width: 0px; 
+   text-align:center; 
+}
+
+
 /* More info here: */
 /* http://thesisthemetools.com/tutorial-widgetized-fat-footer/ */
 /* footer widget area setup */

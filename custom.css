@@ -94,12 +94,16 @@ body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans",
 
 .custom #header { 
    padding: 0; 
+	border: none;
+	margin-bottom: 10px;
 }
 
 /* This line gets rid of the site title & tagline by casting them out to far left field */
+
 .custom #header #logo, .custom #header #tagline {
    text-indent: -9999px; 
 }
+
 
 /* This line collapses the vertical space of the tagline so that there isn't unnecessary white space after the header image */
 
@@ -145,7 +149,8 @@ body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans",
    font-size:14px; 
    border-style:none; 
    border-bottom:none; 
-   padding-bottom:2px; 
+   padding-bottom:4px; 
+	padding-right: 50px;
 }
 
 .custom .menu .tab a { 
@@ -198,9 +203,9 @@ body{ font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans",
     padding-right: 0px;
 }
 
-
+/* Overridden in footer css */
 .custom #footer { 
-    background:#356101; 
+   background:#356101; 
 	color:#ffffff; 
 	text-align:center; 
 }
