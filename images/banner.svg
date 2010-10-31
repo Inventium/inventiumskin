@@ -36,15 +36,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.8421875"
-     inkscape:cx="232.76941"
+     inkscape:cx="424.63955"
      inkscape:cy="-99.558975"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1230"
      inkscape:window-height="828"
-     inkscape:window-x="120"
-     inkscape:window-y="33"
+     inkscape:window-x="329"
+     inkscape:window-y="68"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -64,7 +64,7 @@
      id="layer1"
      transform="translate(-142.23058,-282.80322)">
     <rect
-       style="fill:#ffb380;fill-opacity:1;fill-rule:nonzero;stroke:#002b00;stroke-width:1.31092525;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.55186726;stroke-dasharray:none;stroke-dashoffset:18.50120495"
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.31092524999999993;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.55186725999999997;stroke-dasharray:none;stroke-dashoffset:18.50120495000000176"
        id="rect2837"
        width="858.68909"
        height="148.68907"
@@ -72,15 +72,59 @@
        y="283.45868" />
     <text
        xml:space="preserve"
-       style="font-size:36.00000033px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo;-inkscape-font-specification:Museo"
-       x="417.30963"
-       y="311.11368"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="356.57092"
+       y="327.90591"
        id="text2813"
-       sodipodi:linespacing="125%"
-       transform="scale(0.83466844,1.1980805)"><tspan
+       sodipodi:linespacing="100%"
+       transform="scale(0.85481351,1.1698458)"
+       inkscape:export-filename="/Applications/MAMP/htdocs/inventium/wp-content/themes/thesis_18/custom/images/text2813.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan2815"
-         x="417.30963"
-         y="311.11368">inventium systems</tspan></text>
+         x="356.57092"
+         y="327.90591">inventium systems</tspan></text>
+    <rect
+       style="opacity:0.16460906;fill:#2ca05a;fill-opacity:1;stroke:none"
+       id="rect2815"
+       width="117.90117"
+       height="602.77356"
+       x="-1035.4484"
+       y="1218.8859"
+       ry="0"
+       transform="matrix(0.99998199,0.0060022,0.97134344,0.23768028,0,0)" />
+    <rect
+       style="opacity:0.16460906;fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3589"
+       width="48.50312"
+       height="686.41864"
+       x="2316.6548"
+       y="1397.9138"
+       transform="matrix(0.99995765,-0.00920335,-0.97597664,0.21787521,0,0)" />
+    <rect
+       style="opacity:0.16460906;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3591"
+       width="23.747681"
+       height="177.54784"
+       x="318.1004"
+       y="334.74069"
+       transform="matrix(1,0,0.53501478,0.8448427,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-size:22.05849075px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="1028.2631"
+       y="370.69046"
+       id="text3593"
+       sodipodi:linespacing="125%"
+       transform="scale(0.93173312,1.0732687)"><tspan
+         sodipodi:role="line"
+         id="tspan3595"
+         x="1028.2631"
+         y="370.69046">Technology meets</tspan><tspan
+         sodipodi:role="line"
+         x="1028.2631"
+         y="398.26358"
+         id="tspan3597">marketing</tspan></text>
   </g>
 </svg>
