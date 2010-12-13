@@ -208,6 +208,7 @@ function page_hrecipe_18() {
     get_footer(apply_filters('thesis_get_footer', $name));
 }
 
+/* This hook is defined in wiaw_fat_footer. */
 function is_hook_after_page() {
    do_action('is_hook_after_page');
 }

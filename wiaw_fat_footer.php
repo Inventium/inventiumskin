@@ -40,9 +40,9 @@ function footer_bottom_bar() {
 ?>
 <p class="legal">
    Copyright &copy; 2009-2010 All Rights Reserved Inventium Systems | 
-   <a href ="http://website-in-a-weekend.net/disclaimer">Disclaimer</a> | 
-   <a href ="http://website-in-a-weekend.net/privacy-policy">Privacy Policy</a> | 
-   <a href ="http://website-in-a-weekend.net/terms-and-conditions">Terms & Conditions</a>.
+   <a href ="http://inventiumsystems.com/disclaimer">Disclaimer</a> | 
+   <a href ="http://inventiumsystems.com/privacy-policy">Privacy Policy</a> | 
+   <a href ="http://inventiumsystems.com/terms-and-conditions">Terms & Conditions</a>.
 </p>
 <?php
 }
