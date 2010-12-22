@@ -25,15 +25,19 @@ in the User's Guide:
 	http://diythemes.com/thesis/rtfm/customizing-thesis-with-customcss/
 */
 
-/* @font-face{ font-family: "Museo"; src: url(http://www.violetminded.com/fonts/Museo500.otf) format("opentype"); }*/
+
+
 
 body{ 
    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif; 
 }
 
+
+
+
 body {
-   background: #F0F0F0 url(http://pivotallabs.com/images/bg-dot.png) 50% 0%;
-   background-image: url(http://pivotallabs.com/images/bg-dot.png);
+   background: #F0F0F0 url(./images/bg-dot.png) 50% 0%;
+   background-image: url(./images/bg-dot.png);
    background-repeat-x: initial;
    background-repeat-y: initial;
    background-attachment: initial;
@@ -44,19 +48,26 @@ body {
    background-color: #F0F0F0;
 }
 
+
+
 .custom #page {
 	margin-top: 15px;
+	padding: 15px;
 	border-width: 1px;
 	border-color: #ccc;
 	border-style: solid;
 }
 
+
+
 .custom .entry-title, h1, h2, h3, h4, h5, h6 { 
    font-family: Palatino, "Palatino Linotype", serif; 
 }
 
+
 .custom .entry-title a { color:#4f0074; }
 .custom .entry-title a:hover { color:#ff9600; }
+
 
 .custom h1, h2 {
    font-family: Palatino, "Palatino Linotype", serif; 
@@ -68,7 +79,7 @@ body {
    color:#ff9600;
 }
 
-/*
+
 .custom a:link {
    color:#4f0074;
 }
@@ -80,8 +91,11 @@ body {
 .custom a:hover {
    color:#ff9600;
 }
-*/
 
+
+.custom #sidebars {
+  margin-top: 35px;
+}
 
 .custom #sidebars #sidebar_1 h3 { 
    display:block; 
@@ -103,7 +117,7 @@ body {
 }
 
 
-/* Bitchin' banner */
+
 .custom #header #logo a {
    display: block; 
    background: url('images/banner.png') no-repeat; 
@@ -113,7 +127,7 @@ body {
    height:150px;
 }
 
-/* Solving the problem of the background within the header */
+
 
 .custom #header { 
    padding: 0; 
@@ -121,16 +135,13 @@ body {
 	margin-bottom: 10px;
 }
 
-/* This line gets rid of the site title & tagline by casting them out to far left field */
+
 
 .custom #header #logo, .custom #header #tagline {
    text-indent: -9999px; 
 }
 
 
-/* This line collapses the vertical space of the tagline so that there isn't unnecessary white space after the header image */
-
-/* This is a bit of a kludge, but it seems to work. */
 .custom #tagline { 
    height: 0px;
 	margin: 0px 
@@ -146,10 +157,6 @@ body {
    color:#356101;
 }
 
-.custom #page { 
-/*    width:971px;
-	margin: 0px; */
-}
 
 .custom #content {
   margin: 0px;
@@ -167,7 +174,6 @@ body {
 	padding-right: 0px;
 }
 
-/* Custom Nav */
 
 .custom .menu { 
    float: right;
@@ -195,7 +201,6 @@ body {
 
 .custom .menu .tab a:hover { 
    background:#fff; 
-   /* color:#f00; */ 
    text-transform:lowercase; 
    border:none; 
    letter-spacing:-0.02em; 
@@ -226,7 +231,6 @@ body {
 
 .custom #content_box { background:#ffffff; }
 
-/* Sexy Sidebar */ 
 
 .custom #sidebars { background:#ffffff; }
 
@@ -234,16 +238,13 @@ body {
     padding-right: 0px;
 }
 
-/* Overridden in footer css */
+
 .custom #footer { 
    background:#356101; 
 	color:#ffffff; 
 	text-align:center; 
 }
 
-.custom #footer a {
-	/* color:#ff9600; */
-}
 
 .custom #article_links .bookbox {
 	width: 450px;
@@ -289,7 +290,7 @@ body {
 }
 
 
-/* Block spacing resets */
+
 .custom p {
   margin-bottom: .5em; 
 }
@@ -303,7 +304,7 @@ body {
   margin-top: .5em; 
 }
 
-/* Dangerous stuff. */
+
 .custom div + p {
   text-indent: 1.5em;
   margin-top: .5em; 
@@ -311,7 +312,7 @@ body {
 
 
 
-/* Small, medium, large thematic break. */
+
 p.stb { text-indent: 0; margin-top: 0.83em; }
 p.mtb { text-indent: 0; margin-top: 2.17em; }
 p.ltb { text-indent: 0; margin-top: 3.08em; }
@@ -370,9 +371,7 @@ p.ltb { text-indent: 0; margin-top: 3.08em; }
 
 	border-width: 1px; 
 	border-style: solid; 
-    font-size: 85%;
-	/* border-color: #002DFF; */
-    /* background-color: #5DCA8F; */
+  font-size: 85%;
 	margin-left: 1em; 
 	margin-right: 1em;
 	margin-bottom: 1em;
@@ -381,15 +380,10 @@ p.ltb { text-indent: 0; margin-top: 3.08em; }
 }
 
 
-/* ----- From here to next line, maybe delete --- */
 .custom .format_text input,
 .custom .sidebar .text_input {
  width:auto;
 }
-
-
-
-
 
 .custom .format_text input, 
 .custom #commentform input, #commentform textarea {
@@ -403,7 +397,7 @@ width:auto;
 .custom .format_text .text_input {
  width:auto;
 }
-/* ----- From here to next line, maybe delete --- */
+
 
 
 .notweetmeme #page div.tweetmeme_button {
@@ -411,7 +405,7 @@ width:auto;
 }
 
 
-/* Feature box */
+
 .custom #feature_box {
     overflow: auto;
     background-color: #fff;
@@ -435,7 +429,6 @@ width:auto;
 .custom #feature_box h2 a {
     text-indent: 0em;
     text-decoration: underline;
-/*    color: #E9BA3D; */
 }
 
 .custom #feature_box div.featuredpost {
@@ -449,3 +442,5 @@ width:auto;
     float: right;
     display: inline;
 }
+
+
