@@ -18,21 +18,21 @@ the terms_of_service.txt file included in this package.
 ------------------------------------------------------------------------------*/
 
 /*---:[ core layout elements ]:---*/
-#container { width: 90.4em; margin: 0 auto; }
+#container { width: 87.1em; margin: 0 auto; }
 	#page { padding: 2.2em; }
 		#header, #footer { padding-right: 1.1em; padding-left: 1.1em; }
-		#content_box { width: 100%; background: url('../lib/images/dot-ddd.gif') 21.7em 0 repeat-y; }
+		#content_box { width: 100%; background: url('../lib/images/dot-ddd.gif') 62.4em 0 repeat-y; }
 		.no_sidebars { background: none !important; }
 			
-			#content { width: 64.2em; float: right; }
+			#content { width: 62.4em; float: left; }
 			.no_sidebars #content { width: 100%; }
-				.post_box, .teasers_box, .full_width #content_box .page { margin: 0 1em 0 2.2em; }
+				.post_box, .teasers_box, .full_width #content_box .page { margin: 0 2.3em 0 1.1em; }
 					.full_width #content_box .page { width: auto; }
 				.no_sidebars .post_box { margin: 0 1.1em; }
-				.teasers_box { width: 61em; }
-					.teaser { width: 29.4em; }
-				#archive_intro, .prev_next { padding-right: 1em; padding-left: 2.2em; }
-			#sidebars { width: 21.7em; border: 0; float: left; }
+				.teasers_box { width: 59em; }
+					.teaser { width: 28.4em; }
+				#archive_intro, .prev_next { padding-right: 2.3em; padding-left: 1.1em; }
+			#sidebars { width: 20.2em; border: 0; float: right; }
 				.sidebar { width: 100%; }
 				#sidebar_1 { border: 0; }
 					.sidebar ul.sidebar_list { padding-right: 1.1em; padding-left: 1.1em; }
@@ -48,20 +48,20 @@ the terms_of_service.txt file included in this package.
 /*---:[ multimedia box elements ]:---*/
 #multimedia_box { padding: 1.1em; }
 	#image_box img { display: block; padding: 0.1em; border-width: 0.1em; }
-	#image_box img.square { width: 19.1em; height: 19.1em; }
-	#image_box img.four_by_three { width: 19.1em; height: 14.3em; }
-	#image_box img.three_by_four { width: 19.1em; height: 25.5em; }
-	#image_box img.three_by_two { width: 19.1em; height: 12.7em; }
-	#image_box img.two_by_three { width: 19.1em; height: 28.7em; }
-	#image_box img.five_by_four { width: 19.1em; height: 15.3em; }
-	#image_box img.four_by_five { width: 19.1em; height: 23.9em; }
-	#image_box img.sixteen_by_nine { width: 19.1em; height: 10.7em; margin: 0 auto; }
-	#image_box img.nine_by_sixteen { width: 19.1em; height: 34em; margin: 0 auto; }
-	#image_box img.two_by_one { width: 19.1em; height: 9.6em; }
-	#image_box img.one_by_two { width: 19.1em; height: 38.2em; }
+	#image_box img.square { width: 17.6em; height: 17.6em; }
+	#image_box img.four_by_three { width: 17.6em; height: 13.2em; }
+	#image_box img.three_by_four { width: 17.6em; height: 23.5em; }
+	#image_box img.three_by_two { width: 17.6em; height: 11.7em; }
+	#image_box img.two_by_three { width: 17.6em; height: 26.4em; }
+	#image_box img.five_by_four { width: 17.6em; height: 14.1em; }
+	#image_box img.four_by_five { width: 17.6em; height: 22em; }
+	#image_box img.sixteen_by_nine { width: 17.6em; height: 9.9em; margin: 0 auto; }
+	#image_box img.nine_by_sixteen { width: 17.6em; height: 31.3em; margin: 0 auto; }
+	#image_box img.two_by_one { width: 17.6em; height: 8.8em; }
+	#image_box img.one_by_two { width: 17.6em; height: 35.2em; }
 
 /*---:[ comments area ]:---*/
-#comments { margin-right: 1.1em; margin-left: 1.1em; }
+#comments { margin-right: 2.3em; margin-left: 0em; }
 	.comments_intro, #respond_intro { margin-left: 1.1em; }
 		dl#comment_list dt, #trackback_list { padding-right: 1.1em; padding-left: 1.1em; }
 		dl#comment_list dd { padding-left: 1.1em; }
@@ -72,7 +72,7 @@ the terms_of_service.txt file included in this package.
 		dl#comment_list dl dd .format_text { padding-left: 1.6em; border-width: 0 0 0 0.071em; }
 		dl#comment_list dl dd.bypostauthor > .format_text { padding-left: 1.5em; border-width: 0 0 0 0.143em; }
 		dl#comment_list dl dd dl { padding-left: 2.2em; }
-#commentform { padding-right: 1em; padding-left: 1.1em; }
+#commentform { padding-right: 2.3em; padding-left: 1.1em; }
 .comments_closed, .login_alert { margin-left: 1.1em; }
 
 /*---:[ content elements ]:---*/

@@ -151,6 +151,10 @@ body {
 	margin: 0px; */
 }
 
+.custom #content {
+  margin: 0px;
+}
+
 .custom #content .post {
 	margin: 0px 5px;
 }
