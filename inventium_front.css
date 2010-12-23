@@ -1,13 +1,53 @@
 
+html, body {
+height: 100%;
+}
+
+html {
+
+/*   background: #F0F0F0 url(./images/bg-dot.png) 50% 0%; */
+   /*   background-image: url(./images/bg-dot.png); */
+
+   background: url(./images/600full-marilyn-monroe.jpg); 
+/*   background: transparent url(./images/bg-stipple.png); */
+/*
+   background: url(./images/bg-stipple.png);
+   background-color: #ff0000;   
+   background-repeat-x: initial;
+   background-repeat-y: initial;
+   background-attachment: initial;
+   background-position-x: 50%;
+   background-position-y: 0%;
+   background-origin: initial;
+   background-clip: initial;
+   background-color: #F0F0F0; */
+}
+
+
+body {
+   background: transparent url(./images/bg-stipple.png);
+   background-repeat-x: initial;
+   background-repeat-y: initial;
+   background-attachment: initial;
+   background-position-x: 50%;
+   background-position-y: 0%;
+   background-origin: initial;
+   background-clip: initial;
+   padding-top: 25px; 
+}
+
+
+
 .front #page {
 /*   margin-left: auto;
    margin-right: auto; */
-	margin-top: 15px;
+  margin-top: 0px;
 /*   width: 860px; */
   background-color: #fff;
   border-width: 1px;
   border-style: solid;
 }
+
 
 
 .front div.comments_closed {

@@ -99,7 +99,7 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3611"
-       id="linearGradient3711"
+       id="linearGradient4270"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.3904297,0,0,1.3435772,-20.750249,-74.051766)"
        x1="68.863785"
@@ -109,7 +109,27 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3619"
-       id="linearGradient3713"
+       id="linearGradient4272"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0245637,0,-1.5501971)"
+       x1="0.89053541"
+       y1="6.5000076"
+       x2="149.10947"
+       y2="6.5000076" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3611"
+       id="linearGradient4294"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3904297,0,0,1.3435772,-20.750249,-74.051766)"
+       x1="68.863785"
+       y1="-51.514675"
+       x2="68.863785"
+       y2="49.751625" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3619"
+       id="linearGradient4296"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1,0,0,1.0245637,0,-1.5501971)"
        x1="0.89053541"
@@ -124,18 +144,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.0018004"
-     inkscape:cx="196.3189"
+     inkscape:zoom="2.0973578"
+     inkscape:cx="282.27575"
      inkscape:cy="64.860762"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:document-units="px"
      inkscape:grid-bbox="true"
      showborder="true"
-     inkscape:window-width="1732"
-     inkscape:window-height="985"
-     inkscape:window-x="81"
-     inkscape:window-y="16"
+     inkscape:window-width="1727"
+     inkscape:window-height="976"
+     inkscape:window-x="89"
+     inkscape:window-y="36"
      inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -179,6 +199,22 @@
        orientation="1,0"
        position="160,-10"
        id="guide3693" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="310,150"
+       id="guide4230" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="130,140"
+       id="guide4232" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="280,145"
+       id="guide4234" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="430,115"
+       id="guide4236" />
   </sodipodi:namedview>
   <metadata
      id="metadata2822">
@@ -223,16 +259,16 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:8px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Italic"
-       x="34.01128"
+       style="font-size:8px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Italic"
+       x="9.0972185"
        y="-45.068722"
        id="text3616"
        sodipodi:linespacing="100%"
        transform="scale(1.0992371,0.90972184)"><tspan
          sodipodi:role="line"
          id="tspan3618"
-         x="34.01128"
-         y="-45.068722">Arial 8 pt italic</tspan></text>
+         x="9.0972185"
+         y="-45.068722">For Toby Lane Vineyards...</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -243,7 +279,7 @@
          sodipodi:role="line"
          id="tspan3622"
          x="10.306849"
-         y="-26.357582">Arial 11 pt</tspan></text>
+         y="-26.357582">Wine is a family affair.</tspan></text>
     <g
        id="g3673"
        transform="translate(150,0)">
@@ -274,13 +310,13 @@
        sodipodi:linespacing="100%"
        id="text3681"
        y="-45.068722"
-       x="170.46951"
-       style="font-size:8px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Italic"
+       x="145.5555"
+       style="font-size:8px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Italic"
        xml:space="preserve"><tspan
          y="-45.068722"
-         x="170.46951"
+         x="145.5555"
          id="tspan3683"
-         sodipodi:role="line">Arial 8 pt italic</tspan></text>
+         sodipodi:role="line">Mo Mellady gives you...</tspan></text>
     <text
        sodipodi:linespacing="100%"
        id="text3685"
@@ -291,17 +327,17 @@
          y="-26.357582"
          x="160.30685"
          id="tspan3687"
-         sodipodi:role="line">Arial 11 pt</tspan></text>
+         sodipodi:role="line">The sound of green.</tspan></text>
     <g
        transform="translate(300,0)"
-       id="g3695">
+       id="g4254">
       <rect
          ry="6.7094278"
          y="-55.344444"
          x="0.65556425"
          height="118.68887"
          width="148.68886"
-         id="rect3697"
+         id="rect4256"
          style="opacity:0.16460906;fill:none;stroke:#000000;stroke-width:1.3111285;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.55186726;stroke-dasharray:none;stroke-dashoffset:18.50120495" />
       <rect
          ry="5.3033009"
@@ -309,36 +345,86 @@
          x="0.89053541"
          height="116"
          width="148.21893"
-         id="rect3699"
-         style="opacity:0.16460906;fill:url(#linearGradient3711);fill-opacity:1;stroke:url(#linearGradient3713);stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.55186726;stroke-dasharray:none;stroke-dashoffset:18.50120495" />
+         id="rect4258"
+         style="opacity:0.16460906;fill:url(#linearGradient4270);fill-opacity:1;stroke:url(#linearGradient4272);stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.55186726;stroke-dasharray:none;stroke-dashoffset:18.50120495" />
       <path
          sodipodi:nodetypes="ccccc"
-         id="path3701"
+         id="path4260"
          d="M 130.03752,-10.371714 130.03752,44 144.70813,16.151076 140.12716,7.8692004 130.03752,-10.371714 z"
          style="opacity:0.21000001;fill:none;stroke:#000000;stroke-width:0.91690117;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <text
        xml:space="preserve"
        style="font-size:8px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Italic"
-       x="306.92813"
+       x="282.01376"
        y="-45.068722"
-       id="text3703"
+       id="text4262"
        sodipodi:linespacing="100%"
        transform="scale(1.0992371,0.90972184)"><tspan
          sodipodi:role="line"
-         id="tspan3705"
-         x="306.92813"
-         y="-45.068722">Arial 8 pt italic</tspan></text>
+         id="tspan4264"
+         x="282.01376"
+         y="-45.068722"
+         style="text-align:start;text-anchor:start">Far more than hair care...</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
        x="310.30685"
        y="-26.357582"
-       id="text3707"
+       id="text4266"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan3709"
+         id="tspan4268"
          x="310.30685"
-         y="-26.357582">Arial 11 pt</tspan></text>
+         y="-26.357582">Katherine Kendall Salon.</tspan></text>
+    <g
+       id="g4278"
+       transform="translate(450,0)">
+      <rect
+         style="opacity:0.16460906;fill:none;stroke:#000000;stroke-width:1.3111285;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.55186726;stroke-dasharray:none;stroke-dashoffset:18.50120495"
+         id="rect4280"
+         width="148.68886"
+         height="118.68887"
+         x="0.65556425"
+         y="-55.344444"
+         ry="6.7094278" />
+      <rect
+         style="opacity:0.16460906;fill:url(#linearGradient4294);fill-opacity:1;stroke:url(#linearGradient4296);stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.55186726;stroke-dasharray:none;stroke-dashoffset:18.50120495"
+         id="rect4282"
+         width="148.21893"
+         height="116"
+         x="0.89053541"
+         y="-52.890526"
+         ry="5.3033009" />
+      <path
+         style="opacity:0.21000001;fill:none;stroke:#000000;stroke-width:0.91690117;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="M 130.03752,-10.371714 130.03752,44 144.70813,16.151076 140.12716,7.8692004 130.03752,-10.371714 z"
+         id="path4284"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <text
+       transform="scale(1.0992371,0.90972184)"
+       sodipodi:linespacing="100%"
+       id="text4286"
+       y="-45.068722"
+       x="418.47311"
+       style="font-size:8px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Italic"
+       xml:space="preserve"><tspan
+         style="text-align:start;text-anchor:start"
+         y="-45.068722"
+         x="418.47311"
+         id="tspan4288"
+         sodipodi:role="line">Arial 8 pt italic</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text4290"
+       y="-26.357582"
+       x="460.30685"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="-26.357582"
+         x="460.30685"
+         id="tspan4292"
+         sodipodi:role="line">Arial 11 pt</tspan></text>
   </g>
 </svg>

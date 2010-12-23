@@ -36,8 +36,14 @@ body{
 
 
 body {
-   background: #F0F0F0 url(./images/bg-dot.png) 50% 0%;
-   background-image: url(./images/bg-dot.png);
+/*   background: #F0F0F0 url(./images/bg-dot.png) 50% 0%; */
+   /*   background-image: url(./images/bg-dot.png); */
+
+/*   background: transparent url(./images/600full-marilyn-monroe.jpg); */
+/*   background: transparent url(./images/bg-stipple.png);*/
+/*
+   background: url(./images/bg-stipple.png);
+   background-color: #ff0000;   
    background-repeat-x: initial;
    background-repeat-y: initial;
    background-attachment: initial;
@@ -45,13 +51,24 @@ body {
    background-position-y: 0%;
    background-origin: initial;
    background-clip: initial;
-   background-color: #F0F0F0;
+   background-color: #F0F0F0; */
 }
 
-
+/*
+.custom div#container {
+   background: transparent url(./images/bg-stipple.png);
+   background-repeat-x: initial;
+   background-repeat-y: initial;
+   background-attachment: initial;
+   background-position-x: 50%;
+   background-position-y: 0%;
+   background-origin: initial;
+   background-clip: initial;
+}
+*/
 
 .custom #page {
-	margin-top: 15px;
+	margin-top: 0px;
 	padding: 15px;
 	border-width: 1px;
 	border-color: #ccc;
