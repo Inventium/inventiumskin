@@ -102,9 +102,9 @@ body {
 
 .front a#tobylane {
    display: block;
-   width: 200px;
+   width: 207px;
    height: 165px;
-   background: url("/inventium/wp-content/uploads/2010/10/tobylane_200x165_rollover.png") no-repeat 0 0;
+   background: url("/inventium/wp-content/uploads/2010/10/rollovers_full.png") no-repeat 0 0;
   background-position: 0 -165px;
 }
 
@@ -114,6 +114,23 @@ body {
 
 /* This is for text in the link */
 .front a#tobylane span {
+   display: none;
+}
+
+.front a#momellady {
+   display: block;
+   width: 207px;
+   height: 165px;
+   background: url("/inventium/wp-content/uploads/2010/10/rollovers_full.png") no-repeat 0 0;
+  background-position: 400 -165px;
+}
+
+.front a#momellady:hover { 
+  background-position: 0 0px;
+}
+
+/* This is for text in the link */
+.front a#momellady span {
    display: none;
 }
 
